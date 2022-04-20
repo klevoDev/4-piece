@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap');
 
 body {
-    font-family: 'Source Sans Pro';
-    color: #2C2C2C;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-.wrapper {}
+.wrapper {
+    padding: 30px 0 113px 0;
+}
 
 .container {
     max-width: 600px;
@@ -15,20 +16,55 @@ body {
 }
 
 
+.subheading {
+    font-family: 'Work Sans', sans-serif;
+
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 130%;
+    text-align: center;
+}
+
+.text {
+    line-height: 188%;
+    color: #2C2C2C;
+}
+
+.border-text {
+    font-size: 15px;
+    line-height: 200%;
+}
+
+
 .page {}
 
-.page__fish {}
+.page__fish {
+    margin-bottom: 21px;
+}
 
-.page__prototype {}
+.page__prototype {
+    margin-bottom: 30px;
+}
 
-.page__idealization {}
+.page__idealization {
+    margin-bottom: 168px;
+}
 
 .page__idiom {}
 
 
 .fish {}
 
-.fish__heading {}
+.fish__heading {
+    font-family: 'Work Sans', sans-serif;
+
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 130%;
+    text-align: center;
+
+    margin-bottom: 21px;
+}
 
 .fish__text {}
 
@@ -39,33 +75,51 @@ body {
 
 .prototype__text {}
 
-.prototype__wrap-image {}
+.prototype__wrap-image {
+    margin-bottom: 13px;
+}
 
 .prototype__image {}
 
 
 .idealization {}
 
-.idealization__subheading {}
+.idealization__subheading {
+    margin-bottom: 15px;
+}
 
-.idealization__border {}
+.idealization__border {
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px 10px;
+}
 
 .idealization__text {}
 
 
 .idiom {}
 
-.container__subheading {}
+.idiom__subheading {
+    margin-bottom: 33px;
+}
 
-.container__text {}
+.idiom__text {
+    text-align: center;
 
-.container__border {
-    background: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.idiom__border {
     border: 2px solid #000000;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px 10px;
-
 }
 
-.container__title {}
+.idiom__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 104%;
+    text-align: center;
+}
