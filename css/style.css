@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap');
+
+body {
+    font-family: 'Source Sans Pro';
+    color: #2C2C2C;
+}
+
+.wrapper {}
+
+.container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.page {}
+
+.page__fish {}
+
+.page__prototype {}
+
+.page__idealization {}
+
+.page__idiom {}
+
+
+.fish {}
+
+.fish__heading {}
+
+.fish__text {}
+
+
+.prototype {}
+
+.prototype__subheading {}
+
+.prototype__text {}
+
+.prototype__wrap-image {}
+
+.prototype__image {}
+
+
+.idealization {}
+
+.idealization__subheading {}
+
+.idealization__border {}
+
+.idealization__text {}
+
+
+.idiom {}
+
+.container__subheading {}
+
+.container__text {}
+
+.container__border {
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px 10px;
+
+}
+
+.container__title {}
