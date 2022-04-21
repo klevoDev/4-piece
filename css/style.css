@@ -73,12 +73,12 @@ body {
 
 .prototype__subheading {}
 
-.prototype__text {}
+.prototype__text {
+    margin-bottom: 13px;
+}
 
 .prototype__wrap-image {
     text-align: center;
-
-    margin-bottom: 13px;
 }
 
 .prototype__image {}
